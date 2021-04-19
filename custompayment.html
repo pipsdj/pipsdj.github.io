@@ -41,14 +41,44 @@
 
         <header class="major">
           <h2>Custom Payment Gateway</h2>
-          <p>Welcome to our custom payment gateway, here you can enter the amount which was negotioated. <br>visit our <a href="index.html" class="Button">home page</a> or <a href="contact-us.html" class="Button Default">contact us!!!</a></p>
+          <p>Welcome to our custom payment gateway, here you can pay the amount which was negotioated. <br>visit our <a href="index.html" class="Button">home page</a> or <a href="contact-us.html" class="Button Default">contact us!!!</a></p>
         </header>
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="YKTS9VYK9BPE4">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
+        <div id="smart-button-container">
+      <div style="text-align: center;">
+        <div id="paypal-button-container"></div>
+      </div>
+    </div>
+  <script src="https://www.paypal.com/sdk/js?client-id=AYNEAb8Rm6pYd3PUHPq44JSWQdEogmgEJzDUatEeoY3XAxEeb0_CeSMivCsfWOSvBQ96J7op3Wzibshx&currency=USD" data-sdk-integration-source="button-factory"></script>
+  <script>
+    function initPayPalButton() {
+      paypal.Buttons({
+        style: {
+          shape: 'rect',
+          color: 'black',
+          layout: 'vertical',
+          label: 'buynow',
+          
+        },
+
+        createOrder: function(data, actions) {
+          return actions.order.create({
+            purchase_units: [{"description":"40% Discount on forex forecasting life time package ","amount":{"currency_code":"USD","value":120}}]
+          });
+        },
+
+        onApprove: function(data, actions) {
+          return actions.order.capture().then(function(details) {
+            alert('Transaction completed by ' + details.payer.name.given_name + '!');
+          });
+        },
+
+        onError: function(err) {
+          console.log(err);
+        }
+      }).render('#paypal-button-container');
+    }
+    initPayPalButton();
+  </script>
 
       </div>
       <footer id="footer">
