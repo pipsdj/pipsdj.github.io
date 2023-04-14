@@ -1,6 +1,11 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
 
+/*
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -78,7 +83,7 @@ input, select, textarea {
 	}
 
 	html, body {
-		background: #0c213d;
+		background: #1c1d26;
 	}
 
 	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -93,7 +98,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.95);
+		color: rgba(255, 255, 255, 0.75);
 		font-family: "Roboto", Helvetica, sans-serif;
 		font-size: 15pt;
 		font-weight: 100;
@@ -106,14 +111,13 @@ input, select, textarea {
 		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #85aac5;
+		color: #e44c65;
 		text-decoration: none;
 	}
 
 		a:hover {
-			color: #ffffff !important;
-			font-weight: bold;
-			border-bottom-color:transparent;
+			color: #e44c65 !important;
+			border-bottom-color: transparent;
 		}
 
 	strong, b {
@@ -131,7 +135,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
-		font-weight: 350;
+		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 	}
@@ -284,7 +288,7 @@ input, select, textarea {
 		}
 
 		99% {
-			color: rgb(58,60,71);
+			color: #1c1d26;
 			z-index: 100001;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -293,7 +297,7 @@ input, select, textarea {
 		}
 
 		100% {
-			color: rgb(58,60,71);
+			color: #1c1d26;
 			z-index: -1;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -313,7 +317,7 @@ input, select, textarea {
 		}
 
 		99% {
-			color: rgb(58,60,71);
+			color: #1c1d26;
 			z-index: 100001;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -322,7 +326,7 @@ input, select, textarea {
 		}
 
 		100% {
-			color: rgb(58,60,71);
+			color: #1c1d26;
 			z-index: -1;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -342,7 +346,7 @@ input, select, textarea {
 		}
 
 		99% {
-			color: rgb(58,60,71);
+			color: #1c1d26;
 			z-index: 100001;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -351,7 +355,7 @@ input, select, textarea {
 		}
 
 		100% {
-			color: rgb(58,60,71);
+			color: #1c1d26;
 			z-index: -1;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -371,7 +375,7 @@ input, select, textarea {
 		}
 
 		99% {
-			color: rgb(58,60,71);
+			color: #1c1d26;
 			z-index: 100001;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -380,7 +384,7 @@ input, select, textarea {
 		}
 
 		100% {
-			color: rgb(58,60,71);
+			color: #1c1d26;
 			z-index: -1;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -554,7 +558,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: "Roboto", Helvetica, sans-serif;
+			font-family: 'Font Awesome 5 Free';
 			font-weight: 900;
 		}
 
@@ -589,7 +593,7 @@ input, select, textarea {
 			-webkit-animation: overlay-hide 1.5s ease-in forwards !important;
 			-ms-animation: overlay-hide 1.5s ease-in forwards !important;
 			animation: overlay-hide 1.5s ease-in forwards !important;
-			background: rgb(57, 60, 81);
+			background: #1c1d26;
 			content: '';
 			display: block;
 			height: 100%;
@@ -2176,13 +2180,13 @@ input, select, textarea {
 	}
 
 	header.major {
-		margin: 0 0 1em 0;
+		margin: 0 0 4em 0;
 		position: relative;
 		text-align: center;
 	}
 
 		header.major:after {
-			background: #024f94;
+			background: #e44c65;
 			content: '';
 			display: inline-block;
 			height: 0.2em;
@@ -2191,13 +2195,13 @@ input, select, textarea {
 		}
 
 	footer.major {
-		margin: 1em 0 0 0;
+		margin: 4em 0 0 0;
 	}
 
 /* Form */
 
 	form {
-		margin: 5px 5em 1em 5px;
+		margin: 0 0 2em 0;
 	}
 
 		form.cta {
@@ -2251,7 +2255,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #024f94;
+			border-color: #e44c65;
 		}
 
 	select {
@@ -2266,7 +2270,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: rgb(58,60,71);
+			background: #1c1d26;
 		}
 
 		select:focus::-ms-value {
@@ -2354,7 +2358,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #024f94;
+			border-color: #e44c65;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2461,12 +2465,12 @@ input, select, textarea {
 			}
 
 			.icon.alt:before {
-				color: #efd091 !important;
-				text-shadow: 1px 0 0 #efd091, -1px 0 0 #efd091, 0 1px 0 #efd091, 0 -1px 0 #efd091;
+				color: #1c1d26 !important;
+				text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
 			}
 
 		.icon.major {
-			background: #3b6598;
+			background: #272833;
 			border-radius: 100%;
 			cursor: default;
 			display: inline-block;
@@ -2506,7 +2510,7 @@ input, select, textarea {
 /* Image */
 
 	.image {
-	
+		border-radius: 4px;
 		border: 0;
 		display: inline-block;
 		position: relative;
@@ -2519,14 +2523,14 @@ input, select, textarea {
 			position: absolute;
 			left: 0;
 			top: 0;
-
+			background-image: url("images/overlay.png");
 			width: 100%;
 			height: 100%;
 			z-index: 1;
 		}
 
 		.image img {
-			border-radius: 1px;
+			border-radius: 4px;
 			display: block;
 		}
 
@@ -2543,7 +2547,7 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 50%;
+			max-width: 40%;
 		}
 
 			.image.left img, .image.right img {
@@ -2559,30 +2563,6 @@ input, select, textarea {
 			.image.fit img {
 				width: 100%;
 			}
-/* Gallery images*/
-.img{
-	max-width: 100%;
-	height: auto;
-}
-#gallery-img{
-	margin-right: 80px;
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-}
-
-#gallery-img a{
-	margin:  0;
-	padding: 0;
-	border: 0;
-	float: left;
-	width: 25%;
-	box-sizing: border-box;
-}
-#gallery-img img{
-	
-	display: block;
-}
-
 
 /* List */
 
@@ -2609,7 +2589,6 @@ input, select, textarea {
 		ul.alt {
 			list-style: none;
 			padding-left: 0;
-		
 		}
 
 			ul.alt li {
@@ -2856,7 +2835,7 @@ input, select, textarea {
 		background-color: transparent;
 		border-radius: 4px;
 		border: 0;
-		box-shadow: inset 0 0 0 1px #024f94;
+		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3);
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
@@ -2876,16 +2855,15 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:hover,
 		.button:active {
-			box-shadow: inset 0 0 0 1px #ffffff;
-			color: #ffffff !important;
-			background-color: #024f94;
+			box-shadow: inset 0 0 0 1px #e44c65;
+			color: #e44c65 !important;
 		}
 
 		input[type="submit"]:active,
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		.button:active {
-			background-color: rgb(10, 6, 122);
+			background-color: rgba(228, 76, 101, 0.15);
 		}
 
 		input[type="submit"].icon:before,
@@ -2920,7 +2898,7 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #0a067b;
+			background-color: #e44c65;
 			box-shadow: none;
 			color: #ffffff !important;
 		}
@@ -3089,7 +3067,7 @@ input, select, textarea {
 		}
 
 		.spotlight .image.main {
-			display: block;
+			display: none;
 		}
 
 			.spotlight .image.main img {
@@ -3161,15 +3139,15 @@ input, select, textarea {
 		}
 
 		.spotlight.style1 .content {
-			border-color: #024f94;
+			border-color: #e44c65;
 		}
 
 		.spotlight.style2 .content {
-			border-color: #024f94;
+			border-color: #5480f1;
 		}
 
 		.spotlight.style3 .content {
-			border-color: #024f94;
+			border-color: #39c088;
 		}
 
 		.spotlight.inactive .content {
@@ -3223,7 +3201,7 @@ input, select, textarea {
 	}
 
 		.wrapper.style2 {
-			background: #594112;
+			background: #e44c65;
 		}
 
 			.wrapper.style2 input[type="text"]:focus,
@@ -3231,7 +3209,7 @@ input, select, textarea {
 			.wrapper.style2 input[type="email"]:focus,
 			.wrapper.style2 select:focus,
 			.wrapper.style2 textarea:focus {
-				border-color: rgba(255, 0, 0, 0.5);
+				border-color: rgba(255, 255, 255, 0.5);
 			}
 
 			.wrapper.style2 input[type="submit"]:hover, .wrapper.style2 input[type="submit"]:active,
@@ -3258,7 +3236,7 @@ input, select, textarea {
 			.wrapper.style2 input[type="button"].primary,
 			.wrapper.style2 .button.primary {
 				background-color: #ffffff;
-				color: #024f94 !important;
+				color: #e44c65 !important;
 			}
 
 				.wrapper.style2 input[type="submit"].primary:hover, .wrapper.style2 input[type="submit"].primary:active,
@@ -3335,7 +3313,7 @@ input, select, textarea {
 /* Dropotron */
 
 	.dropotron {
-		background: #024f94;
+		background: rgba(39, 40, 51, 0.965);
 		border-radius: 4px;
 		box-shadow: 0 0.075em 0.35em 0 rgba(0, 0, 0, 0.125);
 		list-style: none;
@@ -3351,7 +3329,7 @@ input, select, textarea {
 
 			.dropotron > li a, .dropotron > li span {
 				border: 0;
-				color: rgb(255, 255, 255);
+				color: rgba(255, 255, 255, 0.75);
 				display: block;
 				padding: 0.1em 1em;
 				text-decoration: none;
@@ -3362,7 +3340,7 @@ input, select, textarea {
 			}
 
 			.dropotron > li.active > a, .dropotron > li.active > span {
-				color: #ffffff;
+				color: #e44c65;
 			}
 
 		.dropotron.level-0 {
@@ -3396,8 +3374,8 @@ input, select, textarea {
 	}
 
 	#header {
-		background: #024f94;
-		box-shadow: 0 0 0.25em 0 rgba(250, 250, 250, 0.482);
+		background: rgba(39, 40, 51, 0.965);
+		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
 		cursor: default;
 		height: 3.5em;
 		left: 0;
@@ -3452,7 +3430,7 @@ input, select, textarea {
 						}
 
 					#header nav ul li.active > a, #header nav ul li.active > span {
-						color: #fefefe;
+						color: #e44c65;
 					}
 
 					#header nav ul li > ul {
@@ -3471,93 +3449,92 @@ input, select, textarea {
 
 /* Banner */
 
-#banner {
-	background-attachment: fixed;
-	background-color: #efd091;
-	background-image: url("../../images/banner.jpg");
-	background-position: center center;
-	background-size: cover;
-	box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
-	min-height: 100vh;
-	position: relative;
-	text-align: center;
-	z-index: 21;
-}
-
-	#banner:before {
-		content: '';
-		display: inline-block;
-		height: 100vh;
-		vertical-align: middle;
-		width: 1%;
-	}
-
-	#banner:after {
-		background-image: -moz-linear-gradient(top, rgba(12, 39, 240, 0.756), rgba(0, 30, 255, 0.797)), url("images/overlay.png");;
-		background-image: -webkit-linear-gradient(top, rgba(38, 41, 65, 0.749), rgba(23, 24, 32, 0.804)), url("images/overlay.png");;
-		background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.133), rgba(75, 84, 168, 0.112)), url("images/overlay.png");;
-		background-image: linear-gradient(top, rgba(100, 109, 181, 0.105), rgba(63, 68, 109, 0.085)), url("images/overlay.png");;
-		content: '';
-		display: block;
-		height: 100%;
-		left: 0;
-		position: absolute;
-		top: 0;
-		width: 100%;
-	}
-
-	#banner .content {
-		display: inline-block;
-		margin-right: 1%;
-		max-width: 100%;
-		padding: 6em;
+	#banner {
+		background-attachment: fixed;
+		background-color: #272833;
+		background-image: url("../../images/banner.jpg");
+		background-position: center center;
+		background-size: cover;
+		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
+		min-height: 100vh;
 		position: relative;
-		text-align: right;
-		vertical-align: middle;
-		z-index: 1;
+		text-align: center;
+		z-index: 21;
 	}
 
-		#banner .content header {
+		#banner:before {
+			content: '';
 			display: inline-block;
+			height: 100vh;
 			vertical-align: middle;
+			width: 1%;
 		}
 
-			#banner .content header h2 {
-				font-size: 2.5em;
-				margin: 0;
-			}
-
-			#banner .content header p {
-				margin: 0.5em 0 0 0;
-				top: 0;
-			}
-
-		#banner .content .image {
-			
-			display: inline-block;
-			height: 18em;
-			margin-left: 3em;
-			vertical-align: middle;
-			width: 18em;
+		#banner:after {
+			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			content: '';
+			display: block;
+			height: 100%;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 100%;
 		}
 
-			#banner .content .image img {
+		#banner .content {
+			display: inline-block;
+			margin-right: 1%;
+			max-width: 95%;
+			padding: 6em;
+			position: relative;
+			text-align: right;
+			vertical-align: middle;
+			z-index: 1;
+		}
+
+			#banner .content header {
+				display: inline-block;
+				vertical-align: middle;
+			}
+
+				#banner .content header h2 {
+					font-size: 2.5em;
+					margin: 0;
+				}
+
+				#banner .content header p {
+					margin: 0.5em 0 0 0;
+					top: 0;
+				}
+
+			#banner .content .image {
 				border-radius: 100%;
-				display: block;
-				width: 100%;
+				display: inline-block;
+				height: 18em;
+				margin-left: 3em;
+				vertical-align: middle;
+				width: 18em;
 			}
 
-body.is-touch #banner {
-	background-attachment: scroll;
-}
+				#banner .content .image img {
+					border-radius: 100%;
+					display: block;
+					width: 100%;
+				}
+
+	body.is-touch #banner {
+		background-attachment: scroll;
+	}
 
 /* Footer */
 
 	#footer {
-		background: #050814;
+		background: #272833;
 		padding: 6em 0;
 		text-align: center;
-		clear: left;
 	}
 
 		#footer .icons .icon.alt {
@@ -3578,12 +3555,12 @@ body.is-touch #banner {
 			}
 
 			#footer .icons .icon.alt:before {
-				color: #ffffff !important;
-				text-shadow: 3px 0 0 #0a067b, -1px 0 0 #0a067b, 0 2px 0 #0a067b, 0 -1px 0 #0a067b;
+				color: #272833 !important;
+				text-shadow: 1px 0 0 rgba(255, 255, 255, 0.5), -1px 0 0 rgba(255, 255, 255, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5), 0 -1px 0 rgba(255, 255, 255, 0.5);
 			}
 
 		#footer .copyright {
-			color: #ffffff;
+			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8em;
 			line-height: 1em;
 			margin: 2em 0 0 0;
@@ -3592,7 +3569,7 @@ body.is-touch #banner {
 		}
 
 			#footer .copyright li {
-				border-left: solid 1px #ffffff;
+				border-left: solid 1px rgba(255, 255, 255, 0.3);
 				display: inline-block;
 				list-style: none;
 				margin-left: 1.5em;
@@ -3691,13 +3668,13 @@ body.is-touch #banner {
 
 				.spotlight .image.main {
 					display: block;
-					margin: auto;
+					margin: 0;
 					max-height: 40vh;
 					overflow: hidden;
 				}
 
 				.spotlight .content {
-					background-color: rgb(58,60,71);
+					background-color: #1c1d26;
 					border-width: 0 !important;
 					border-top-width: 0.35em !important;
 					bottom: auto !important;
@@ -3817,7 +3794,7 @@ body.is-touch #banner {
 			}
 
 			header.major {
-				margin: 0 0 0 0;
+				margin: 0 0 2em 0;
 			}
 
 		/* Goto Next */
@@ -3910,7 +3887,7 @@ body.is-touch #banner {
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background: #024f94;
+				background: #272833;
 				box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
 			}
 
@@ -3953,7 +3930,7 @@ body.is-touch #banner {
 					}
 
 					#titleBar .toggle:before {
-						background: #024f94;
+						background: #e44c65;
 						color: rgba(255, 255, 255, 0.5);
 						content: '\f0c9';
 						display: block;
@@ -3988,7 +3965,7 @@ body.is-touch #banner {
 				top: 0;
 				width: 275px;
 				z-index: 10002;
-				background: #024f94;
+				background: #181920;
 				padding: 0.75em 1.25em;
 			}
 
@@ -4004,7 +3981,6 @@ body.is-touch #banner {
 
 					#navPanel .link:hover {
 						color: inherit !important;
-						font-weight: bolder;
 					}
 
 					#navPanel .link:first-child {
@@ -4133,49 +4109,3 @@ body.is-touch #banner {
 					}
 
 	}
-
-	/*Price Plan*/
-	.price-plan-course{
-		display: grid;
-		width: auto, 1000px;
-		margin: auto;
-
-	}
-	.price-plan-course .plan-title{
-		position: relative;
-		top: 0;
-		font-weight: 800;
-		padding: 5px 15px;
-		margin: 0 auto;
-		-webkit-transform: translateY(-50%);
-		transform: translateY(-50%);
-		margin: 0;
-		display: inline-block;
-		background-color: #024f94;
-		color: #ffffff;
-		text-transform: uppercase;
-	}
-	.price-plan-course .plan {
-		display: grid;
-		margin: auto;
-		width: auto;
-		position: relative;
-		justify-content: center;
-		padding: 25px;
-		background-color: #050814;
-		border: 3px solid rgba(252, 247, 247, 0.1);
-	  }
-	  .price-plan-course .plan-cost {
-		padding: 0px 10px 20px;
-	  }
-	  .price-plan-course .plan-price {
-	  font-family: "Roboto", Helvetica, sans-serif;
-		font-weight: 800;
-		font-size: 2.4em;
-		color: #ffffff;
-	  }
-	  .price-plan-course .plan-featured {
-		  
-		padding: 0px 10px 20px;
-	  }
-	  
